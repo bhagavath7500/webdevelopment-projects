@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<title>Code Player</title>
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="jquery-ui/jquery-ui.js"></script>
+	<link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+	<link href="codeplayer_style.css" rel="stylesheet">
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<div id = "container">
+	
+		<div id="title">Code Player</div>
+
+		<div id="buttoncontainer">
+
+			<div class="buttons active" id="HTML">HTML</div>
+
+			<div class="buttons" id="CSS">CSS</div>
+
+			<div class="buttons" id="JavaScript">JavaScript</div>
+
+			<div class="buttons active" id="Output">Output</div>
+
+		</div>
+
+	</div> 
+
+	<div id="textContainer">
+		<textarea id="HTMLPanel" class="panel">Hi there!</textarea>
+
+		<textarea id="CSSPanel" class="panel hidden">p{ background-color:red}</textarea>
+
+		<textarea id="JavaScriptPanel" class="panel hidden">alert("Hi");</textarea>
+
+		<iframe id="OutputPanel" class="panel"></iframe>
+	</div>
+
+<script src="codeplayer_script.js" type="text/javascript"></script>
+</body>
+</html>
